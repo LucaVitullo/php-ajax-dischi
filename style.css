@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #1e2d3b;
+}
+
+
+header {
+    background-color: #2e3a46;
+}
+
+header img {
+    width: 50px;
+}
+
+main {
+    background-color: #1e2d3b;
+    margin: auto;
+    width: 70%;
+
+}
+
+.card-song {
+    color: white;
+    width: 175px;
+    background-color: #2e3a46;
+    padding: 1rem;
+    cursor: pointer;
+
+}
+
+.lv-color {
+    color: #71716c;
+}
+
+main img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
