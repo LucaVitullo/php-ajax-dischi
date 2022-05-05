@@ -1,5 +1,5 @@
 <?php
-include(__DIR__ . 'dischi.php');
+include('dischi.php');
 
 header('Content-Type:application/json');
 echo json_encode($dischi);

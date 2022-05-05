@@ -1,15 +1,15 @@
 const app = new Vue({
     el: '#app',
-    Data() {
-        return {
-            dischi: [],
+    data: {
 
-        }
+        dischi: [],
+
+
 
     },
     mounted() {
-        axios.get('http://localhost/include_json/data/apiDischi.php').then((response) => {
-            console.log(response);
+        axios.get('http://localhost/PHP-AJAX-DISCHI/apiDischi.php').then((response) => {
+            this.dischi = response.data
         }).catch(error => console.log(error));
     }
 
